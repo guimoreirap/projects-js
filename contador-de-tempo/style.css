@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://www.desktopbackground.org/download/1400x1050/2011/01/11/140576_runescape-computer-wallpapers-desktop-backgrounds_1593x1077_h.jpg');  
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 120vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+h1{
+    color: goldenrod;
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+.contador-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.texto{
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.container-div {
+    text-align: center;
+}
+
+.container-div span{
+    font-size: 1.3rem;
+    color: goldenrod;
+}
